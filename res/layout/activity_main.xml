@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <!-- 设置显示的宽度和高度 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+	<!-- 添加一个文本控件写的“手机号” -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phoneNum" 
+            />
+
+ 	
+    	 <!-- 填写手机号的文本框 -->  
+        <EditText 
+            android:id="@+id/edphoneNum"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            />
+        
+        
+    </LinearLayout>
+	
+    <!-- 设置显示宽度和高度 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <!-- 一个文本控件写的是“内容” -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/smscontent"
+             />
+		<!-- 一个文本框接受填写的内容信息的 -->
+        <EditText
+            android:id="@+id/edcontent"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+        	/>
+    </LinearLayout>
+	<!-- 添加一个“发送”按钮 -->
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:text="发送" />
+
+</LinearLayout>

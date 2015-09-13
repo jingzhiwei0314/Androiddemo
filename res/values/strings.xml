@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 存放string变量的类 -->
+    <string name="app_name">自己编写的安卓程序</string> <!-- 程序名称 -->
+    <string name="action_settings">Settings</string>  
+    <string name="hello_world">我编写的Android</string><!-- 显示的文本信息 -->
+	<string name="phoneNum">电话号：</string>	<!-- 电话号信息 -->
+	<string name="smscontent">内  容：</string>	<!-- 短息内容框信息 -->
+	
+</resources>
